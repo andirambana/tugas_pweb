@@ -1,0 +1,42 @@
+
+.centerbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+.centerbutton .button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+  }
+  
+  .centerbutton .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  .centerbutton .button:hover {
+    background-color: #3e8e41;
+  }
+
+
+  .isidata {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+      text-align: center;
+  }

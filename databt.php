@@ -5,45 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guestbook</title>
-    <style>
-        #customers {
-        font-family: Arial, Helvetica, sans-serif;
-        border-collapse: collapse;
-        width: 50%;
-        }
-
-        #customers td, #customers th {
-        border: 1px solid #ddd;
-        padding: 8px;
-        }
-
-        #customers tr:nth-child(even){background-color: #f2f2f2;}
-
-        #customers tr:hover {background-color: #ddd;}
-
-        #customers th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color: #04AA6D;
-        color: white;
-        }
-        a {
-            text-decoration: none;
-            color: black;
-        }
-
-        a:hover {
-            text-decoration: none;
-            color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="databt.css">
 </head>
 <body>
 
-        <h2>Welcome to My Guestbook</h2>
-        <a href="index.php">Form Guestbook</a> | <a href="databt.php">View Guestbook</a>
-        <hr>
+        <h1>Welcome to My Guestbook</h1>
+        <div class="centerbutton">
+                <a href="index.php"><button class="button">Form Guestbook</button></a>
+                <a href="databt.php"><button class="button">View Guestbook</button></a>
+        </div>
 
         <table id="customers">
             <tr>
